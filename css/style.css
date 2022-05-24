@@ -1,0 +1,185 @@
+h1, h2, h3, h4, h5, h6,
+span,
+p,
+ol, li, ul,
+small {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+  border-color: transparent !important;
+}
+
+#banner {
+  background: url(../image/banner_1.jpg);
+}
+
+#icon {
+  background-color: #0c0c0c;
+  padding: 40px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 50px;
+}
+
+#icon .child_1 {
+  margin-right: 30px;
+}
+
+#icon .child_2 {
+  margin-right: 30px;
+}
+
+#icon .child_3 {
+  margin-right: 30px;
+}
+
+#icon .child_4 {
+  margin-right: 30px;
+}
+
+#icon .child_5 {
+  margin-right: 30px;
+}
+
+#develope {
+  background-color: #141625;
+  padding: 20px;
+}
+
+#develope .left_side {
+  padding: 20px;
+}
+
+#develope .left_side span {
+  font-size: 76px;
+  color: #676CDB;
+}
+
+#develope .left_side p {
+  color: #fff;
+  font-size: 35px;
+}
+
+#develope .right_side {
+  padding: 35px 0;
+}
+
+#develope .right_side h2 {
+  text-align: center;
+  color: #fff;
+}
+
+#develope .box_side {
+  padding-top: 35px;
+  padding-left: 150px;
+}
+
+#develope .box_side .text_1 {
+  margin-right: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 100px;
+}
+
+#develope .box_side .text_1:hover {
+  background-color: #676CDB;
+}
+
+#develope .box_side .text_1 i {
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+#develope .box_side .text_1 h4 {
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+#image {
+  background-color: #171d25f2;
+  padding: 30px;
+}
+
+#image img {
+  width: 222px;
+  height: 222px;
+}
+
+#image .para {
+  font-size: 20px;
+  color: #fff;
+}
+
+#image .arrow {
+  font-size: 20px;
+  color: #fff;
+}
+
+#image .pera_1 {
+  color: #fff;
+}
+
+#connect {
+  background-color: black;
+  padding: 30px;
+}
+
+#connect h2 {
+  font-size: 57px;
+  padding-top: 30px;
+  color: #fff;
+}
+
+#connect .icon_3 {
+  color: #fff;
+  padding-top: 20px;
+}
+
+#connect i {
+  margin-right: 20px;
+}
+
+#connect .name_email {
+  color: #fff;
+}
+
+#connect .name_email .name {
+  line-height: 80px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+#connect .name_email .send {
+  line-height: 80px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+#connect .name_email .send:hover {
+  color: #676CDB;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+#last {
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+}
+
+#last span {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

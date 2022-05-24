@@ -1,0 +1,19 @@
+h1,h2,h3,h4,h5,h6,
+span,
+p,
+ol,li,ul,
+small{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.form-control:focus{
+    box-shadow: none !important;
+    border: none !important;
+    border-color: transparent !important;
+ }

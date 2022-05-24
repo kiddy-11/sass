@@ -1,0 +1,138 @@
+@import 'reset';
+@import 'mixins';
+@import 'variable';
+
+#banner{
+    background: url(../image/banner_1.jpg);
+   
+}
+
+#icon{
+    background-color: $full-dark;
+    padding: 40px;
+    text-align: center;
+    color: $dark-opacity;
+    font-size: 50px;
+    .child_1{
+        margin-right: 30px;
+    }
+    .child_2{
+        margin-right: 30px;
+    }
+    .child_3{
+        margin-right: 30px;
+    }
+    .child_4{
+        margin-right: 30px;
+    }
+    .child_5{
+        margin-right: 30px;
+    }
+ 
+    
+}
+#develope{
+    background-color: $ni-color;
+    padding: 20px;
+    .left_side{
+        padding: 20px;
+        span{
+            font-size: 76px;
+            color: $purple-color;
+        }
+        p{
+            color: $white-color;
+            font-size: 35px;
+        }
+    }
+    .right_side{
+        padding:35px 0 ;
+        h2{
+            text-align: center;
+            color:$white-color ;
+            
+        }
+    }
+    .box_side{
+        padding-top: 35px;
+        padding-left: 150px;
+        .text_1{
+            margin-right: 30px;
+            background-color: $dark-opacity ;
+            padding-top: 100px;
+            &:hover{
+                background-color: $purple-color;
+            }
+            i{
+                font-size: 23px;
+                margin-left: 20px;
+            }
+            h4{
+                font-size: 23px;
+                margin-left: 20px;
+            }
+        }
+       
+    }
+}
+#image{
+    background-color: $lightdark-color;
+    padding: 30px;
+    img{
+        width: 222px;
+        height: 222px;
+    }
+    .para{
+        font-size: 20px;
+        color: $white-color;
+    }
+    .arrow{
+        font-size: 20px;
+        color: $white-color; 
+    }
+    .pera_1{
+        color: $white-color;
+    }
+}
+#connect{
+    background-color: $black-color;
+    padding: 30px;
+    h2{
+        font-size: 57px;
+        padding-top: 30px;
+        color: $white-color;
+    }
+    .icon_3{
+        color:$white-color;
+        padding-top: 20px;
+    }
+    i{
+        margin-right: 20px;
+    }
+    .name_email{
+        color:$white-color;
+        .name{
+            line-height: 80px;
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+        .send{
+            line-height: 80px;
+            text-transform: capitalize;
+            font-size: 20px;
+            &:hover{
+                color:$purple-color;
+                transition: all .3s linear;
+            }
+        }
+        
+    }
+}
+#last{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    span{
+        color: $white-color;
+    }
+}
